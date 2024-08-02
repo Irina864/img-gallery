@@ -1,0 +1,36 @@
+$font1: 'Nunito', sans-serif;
+
+$colorText: #ffffff;
+$colorTextLink: #b9d2f7;
+
+$colorBtnDelete: rgba(171, 0, 0, 0.577);
+$colorBtnDeleteHover: rgb(240, 65, 65);
+
+$colorBtnLikeUnactive: #c4d8ff9b;
+$colorBtnLikeActive: rgb(238, 85, 133);
+
+$colorBtnFilter: rgba(237, 195, 208, 0);
+$colorBtnFilterHover: #c4d8ff9b;
+
+$backgroundDark: #000000;
+$backgroundLight: rgb(0, 0, 0);
+
+$colorBorder: rgb(255, 255, 255);
+
+@mixin font($ff, $fs, $fc, $fw) {
+  font-family: $ff;
+  font-size: $fs;
+  color: $fc;
+  font-weight: $fw;
+}
+@mixin flex($fd, $jc, $ai) {
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+@mixin _mobile {
+  @media (max-width: 450px) {
+    @content;
+  }
+}

@@ -1,0 +1,39 @@
+@import '../../template';
+@import '../../variables';
+
+.imagebtn {
+  padding: 5px;
+  margin: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.filter {
+  background-color: $colorBtnFilter;
+  border: 1.5px solid $colorBorder;
+  border-radius: 5px;
+  &:hover {
+    background-color: $colorBtnFilterHover;
+  }
+}
+.delete {
+  padding: 15px;
+  background-color: $colorBtnDelete;
+  border: 1px solid $colorBtnDelete;
+  border-radius: 50%;
+  &:hover {
+    background-color: $colorBtnDeleteHover;
+  }
+}
+.like {
+  padding: 15px;
+  background-color: $colorBtnLikeUnactive;
+  border: 1px solid $colorBtnLikeUnactive;
+  border-radius: 50%;
+  &:hover {
+    background-color: $colorBtnLikeActive;
+  }
+}
+.active {
+  background-color: $colorBtnLikeActive;
+}

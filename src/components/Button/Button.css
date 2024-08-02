@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.imagebtn {
+  padding: 5px;
+  margin: 10px;
+}
+.imagebtn:hover {
+  cursor: pointer;
+}
+
+.filter {
+  background-color: rgba(237, 195, 208, 0);
+  border: 1.5px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.filter:hover {
+  background-color: rgba(196, 216, 255, 0.6078431373);
+}
+
+.delete {
+  padding: 15px;
+  background-color: rgba(171, 0, 0, 0.577);
+  border: 1px solid rgba(171, 0, 0, 0.577);
+  border-radius: 50%;
+}
+.delete:hover {
+  background-color: rgb(240, 65, 65);
+}
+
+.like {
+  padding: 15px;
+  background-color: rgba(196, 216, 255, 0.6078431373);
+  border: 1px solid rgba(196, 216, 255, 0.6078431373);
+  border-radius: 50%;
+}
+.like:hover {
+  background-color: rgb(238, 85, 133);
+}
+
+.active {
+  background-color: rgb(238, 85, 133);
+}/*# sourceMappingURL=Button.css.map */
